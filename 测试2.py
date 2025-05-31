@@ -12,7 +12,7 @@ import 基本信息文档
 
 def 语言模型(消息):
     # 从环境变量中获取 API 密钥（确保你已将 API 密钥设置为环境变量）
-    api_key = 'xai-0QoO7ze0t2mLnMj6rfdQhlX8VtM5N26SGPPH5YFslTcCw5tWtXxAdqcTRM4Bi6PrDm9sqmumqu26GBJ8'
+    api_key = ''
 
     if not api_key:
         return {"error": "API 密钥缺失"}
